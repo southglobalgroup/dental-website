@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment | Arries Dental Practice</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="scrolled">
+        <div class="container container-flex">
+            <a href="index" class="logo">ARRIES<span>DENTAL</span></a>
+            <ul class="nav-links">
+                <li><a href="index">Home</a></li>
+                <li class="nav-item">
+                    <a href="services">Services</a>
+                </li>
+                <li><a href="about">About Us</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+            <a href="appointment" class="btn-primary">Book Now</a>
+        </div>
+    </nav>
+
+    <header class="sub-header">
+        <div class="container">
+            <h1>Schedule Your Visit.</h1>
+            <p style="color: rgba(255,255,255,0.8); max-width: 600px; margin: 0 auto;">Take the first step towards a
+                healthier smile. Fill out the form below and we'll confirm your slot.</p>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="grid-2">
+                    <div class="fade-in">
+                        <h2 style="margin-bottom: 1.5rem;">Online Booking</h2>
+                        <p style="margin-bottom: 2rem;">Please provide your details and your preferred time for an
+                            appointment. Our team will contact you within 24 hours to confirm the exact time and date.
+                        </p>
+                        <div class="service-card" style="padding: 2rem;">
+                            <h4 style="margin-bottom: 1rem;">Need Urgent Help?</h4>
+                            <p style="margin-bottom: 1rem;">If you have a dental emergency, please call us directly for
+                                immediate assistance.</p>
+                            <a href="tel:+27215550123"
+                                style="font-size: 1.25rem; font-weight: 700; color: var(--secondary); text-decoration: none;">+27
+                                21 555 0123</a>
+                        </div>
+                    </div>
+
+                    <div class="form-container fade-in">
+                        <form action="#">
+                            <div class="form-group">
+                                <label>Full Name</label>
+                                <input type="text" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Service Type</label>
+                                <select required>
+                                    <option value="">Select a service</option>
+                                    <option value="checkup">General Checkup</option>
+                                    <option value="whitening">Teeth Whitening</option>
+                                    <option value="implant">Dental Implant</option>
+                                    <option value="ortho">Orthodontics</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="grid-2" style="gap: 1rem;">
+                                <div class="form-group">
+                                    <label>Preferred Date</label>
+                                    <input type="date" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Preferred Time</label>
+                                    <select>
+                                        <option value="morning">Morning (8 AM - 12 PM)</option>
+                                        <option value="afternoon">Afternoon (12 PM - 5 PM)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Additional Notes</label>
+                                <textarea rows="4" placeholder="How can we help you?"></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary" style="width: 100%; padding: 1rem;">Confirm Booking
+                                Request</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <a href="#" class="footer-logo">ARRIES<span>DENTAL</span></a>
+                    <p style="color: rgba(255,255,255,0.7);">Your trusted partner in modern dental health. Premium care
+                        for premium smiles.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index">Home</a></li>
+                        <li><a href="services">Services</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">POPI Act Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Arries Dental Practice. All rights reserved. | Designed for Excellence.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
