@@ -1,0 +1,15 @@
+{
+  "name": "Arries Dental Practice",
+  "short_name": "Arries Dental",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0A2540",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2880/2880090.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
